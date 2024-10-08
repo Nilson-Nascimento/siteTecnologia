@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./lib/main.css">
+  <link rel="stylesheet" href="./lib/bootstrap.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header class="container mb-3 d-flex justify-content-between">
+    <nav class="navbar bg-primary container" data-bs-theme="dark">
+      <h2 class="h2">Tecnologia</h2>
+      <div class="containe-fluid">
+        <a href="#" class="navbar-brand">Menu</a>
+        <button class="navbar-toggler " type="button" data-bs-toggler="colapse" data-bs-target="#" aria-expanded="false"
+          aria-lbel="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+  
+  <!-- Carousel -->
+  <div id="noticias" class="carousel slide pointer-event container" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button class="active" type="button" data-bs-target="#noticias" data-bs-slide-to="0" aria-label="Slide 1"
+        aria-current="true"></button>
+      <button type="button" data-bs-target="#noticias" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#noticias" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img autoplay loop src="./img/pexels-artunchained-325229.jpg" preload="auto" class="d-block w-100"
+          alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/pexels-cookiecutter-1148820.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/pexels-markusspiske-1089438.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#noticias" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#noticias" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- GRID -->
+  <div class="container mt-2 mb-2">
+    <!-- Linha 1 -->
+    <div class="row row-cols-1 row row-cols-sm-2 row-cols-md-3 ">
+      <div class="col">
+        <div class="card h-100">
+          <img src="http://via.placeholder.com/60x60" alt="">
+          <div class="card-body">
+            <h5>Card</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, modi?</p>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-primary">Click aqui</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="http://via.placeholder.com/60x60" alt="">
+          <div class="card-body">
+            <h5>Card</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, modi?</p>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-primary">Click aqui</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="http://via.placeholder.com/60x60" alt="">
+          <div class="card-body">
+            <h5>Card</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, modi?</p>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-primary">Click aqui</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Linha 2 -->
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+      <div class="col">
+        <div class="card h-100">
+          <img src="http://via.placeholder.com/60x60" alt="">
+          <div class="card-body">
+            <h5>Card</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, modi?</p>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-primary">Click aqui</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="http://via.placeholder.com/60x60" alt="">
+          <div class="card-body">
+            <h5>Card</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, modi?</p>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-primary">Click aqui</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="http://via.placeholder.com/60x60" alt="">
+          <div class="card-body">
+            <h5>Card</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, modi?</p>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-primary">Click aqui</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="navbar nav">Rodapé</div>
+    </div>
+  </footer>
+  <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+<!-- 
+<div class="row card-group  mt-3">
+      <div class="card col-12 col-sm-6 mb-2 col-md-4 g-0">
+        <video class="card-img-top" autoplay controls
+          src="https://videos.pexels.com/video-files/8566722/8566722-sd_640_360_30fps.mp4" preload="auto">
+        </video>
+        <div class="card-body">
+          <h5 class="card-title">Card Title</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="btn btn-primary">Click aqui</a>
+        </div>
+      </div>
+      <div class="card col-12 col-sm-6 mb-2 col-md-4 g-0">
+        <img class="card-img-top" src="https://via.placeholder.com/60x60">
+          <div class="card-body g-0 m-0">
+            <h5 class="card-title">Card Title</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Click aqui</a>
+          </div>
+      </div>
+      <div class="card col-12 col-sm-6 mb-2 col-md-4 g-0">
+        <div class="">
+          <img src="https://via.placeholder.com/60x60" alt="" class="card-img-top">
+          <div class="card-body g-0 m-0">
+            <h5 class="card-title">Card Title</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Click aqui</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row  mt-3 mt-3 mb-3">
+      <div class="card col-12 col-sm-6 mb-2 col-md-4 g-0">
+        <div class="">
+          <img src="https://via.placeholder.com/60x60" alt="" class="card-img-top">
+          <div class="card-body g-0 m-0">
+            <h5 class="card-title">Card Title</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Click aqui</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card col-12 col-sm-6 mb-2 col-md-4 g-0">
+        <div class="">
+          <img src="https://via.placeholder.com/60x60" alt="" class="card-img-top">
+          <div class="card-body g-0 m-0">
+            <h5 class="card-title">Card Title</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Click aqui</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card col-12 col-sm-6 mb-2 col-md-4 g-0">
+        <div class="">
+          <img src="https://via.placeholder.com/60x60" alt="" class="card-img-top">
+          <div class="card-body g-0 m-0">
+            <h5 class="card-title">Card Title</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Click aqui</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->

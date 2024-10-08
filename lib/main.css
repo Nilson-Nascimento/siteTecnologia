@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+}
+
+header .container{
+    padding: 0px 8px;
+}
+
+.carousel-item img,
+.carousel-item video{
+    max-height: 350px;
+}
+
+.row .col{
+    margin-top: 5px;
+}
+
+@media screen and (max-width:575px){
+    .carousel-item img,
+    .carousel-item video{
+        height: 1000px;}
+}
+
+@media screen and (min-width:576px){
+    .carousel-item img{height: 250px;}
+}
